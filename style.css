@@ -1,0 +1,11 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding : 5%;
+}
+.card-text{
+    text-align: left;
+}
