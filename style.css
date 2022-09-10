@@ -14,8 +14,17 @@ body {
     text-align: center;
     text-size-adjust: 18px;
 }
-.about-text-left{
+
+/*.about-body-container{
+
+}
+*/
+.about-body-left{
     text-align: left;
+    padding: 20px;
+}
+.about-body-right{
+    text-align: right;
     padding: 20px;
 }
 .about-para{
