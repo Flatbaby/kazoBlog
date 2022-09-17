@@ -11,7 +11,7 @@ body {
     text-align: left;
 }
 .about-header{
-    text-align: center;
+    text-align: left;
     text-size-adjust: 18px;
 }
 
@@ -35,6 +35,14 @@ footer{
     position: fixed;
     bottom: 0;
     right: 1%;
+}
+.button-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
 }
 .button{
     background-color: lightgreen; /* Green */
