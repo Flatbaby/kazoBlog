@@ -54,3 +54,14 @@ footer{
     display: inline-block;
     font-size: 16px;
 }
+.article-paragraph{
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+.article-header{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 20px;
+}
