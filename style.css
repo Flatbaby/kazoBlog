@@ -2,6 +2,9 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: lightgray;
 }
+.grid-wrap {
+    cursor: pointer;
+}
 .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
@@ -9,6 +12,16 @@ body {
 }
 .card-text{
     text-align: left;
+}
+.grid-item {
+    border: 5px;
+    border-style: outset;
+    margin: 5px;
+    text-indent: 5px;
+}
+.card-text{
+    text-align: left;
+    padding-left: 3px;
 }
 .about-header{
     text-align: left;
@@ -53,6 +66,8 @@ footer{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 10px;
+    margin-left: 8px;
 }
 .article-paragraph{
     padding-left: 150px;
